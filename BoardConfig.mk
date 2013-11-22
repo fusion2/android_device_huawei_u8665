@@ -23,15 +23,15 @@
 # Architecture and CPU
 TARGET_CPU_SMP := false
 
-TARGET_BOOTLOADER_BOARD_NAME := u8815
-TARGET_OTA_ASSERT_DEVICE := u8815,hwu8815,u8818,hwu8818
+TARGET_BOOTLOADER_BOARD_NAME := u8665
+TARGET_OTA_ASSERT_DEVICE := u8815,hwu8815,u8818,hwu8818,u8665
 
 # Audio
 TARGET_PROVIDES_LIBAUDIO := true
 
 # Bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/huawei/u8815/bluetooth/vnd_u8815.txt
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8815/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/huawei/u8665/bluetooth/vnd_u8815.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8665/bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # FM Radio
@@ -50,7 +50,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 805306368 # 0x30000000
 TARGET_RECOVERY_FSTAB := device/huawei/u8815/rootdir/fstab.huawei
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/huawei/u8815/ril/
+BOARD_RIL_CLASS := ../../../device/huawei/u8665/ril/
 
 # Wi-Fi
 BOARD_WLAN_DEVICE := bcmdhd
