@@ -33,7 +33,7 @@ TARGET_USES_16BPPSURFACE_FOR_OPAQUE := true
 TARGET_BOOTLOADER_BOARD_NAME := u8815
 TARGET_OTA_ASSERT_DEVICE := u8815,hwu8815,u8818,hwu8818
 
-TARGET_SPECIFIC_HEADER_PATH := device/huawei/u8815/include
+TARGET_SPECIFIC_HEADER_PATH := device/huawei/u8665/include
 
 # Audio
 TARGET_PROVIDES_LIBAUDIO := true
@@ -52,7 +52,7 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := u8815
 # Graphics
 USE_OPENGL_RENDERER := true
 COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=65
-BOARD_EGL_CFG := device/huawei/u8815/configs/egl.cfg
+BOARD_EGL_CFG := device/huawei/u8665/configs/egl.cfg
 BOARD_ADRENO_DECIDE_TEXTURE_TARGET := true
 BOARD_AVOID_DRAW_TEXTURE_EXTENSION := true
 TARGET_GRALLOC_USES_ASHMEM := true
@@ -93,10 +93,10 @@ WIFI_DRIVER_MODULE_NAME := "dhd"
 WIFI_EXT_MODULE_PATH := "/system/lib/modules/cfg80211.ko"
 WIFI_EXT_MODULE_NAME := "cfg80211"
 
-TARGET_CUSTOM_WIFI := ../../device/huawei/u8815/libhardware_legacy/wifi/wifi.c
+TARGET_CUSTOM_WIFI := ../../device/huawei/u8665/libhardware_legacy/wifi/wifi.c
 
 # Kernel 
-TARGET_KERNEL_SOURCE := kernel/huawei/u8815
+TARGET_KERNEL_SOURCE := kernel/huawei/u8665
 TARGET_KERNEL_CONFIG := cyanogenmod_u8815_defconfig
 BOARD_KERNEL_CMDLINE := androidboot.hardware=huawei
 BOARD_KERNEL_BASE := 0x00200000
@@ -105,9 +105,9 @@ BOARD_PAGE_SIZE := 2048
 # Recovery
 #BOARD_TOUCH_RECOVERY := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
-BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/u8815/recovery/graphics.c
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/huawei/u8815/recovery/recovery-keys.c
-TARGET_RECOVERY_INITRC := device/huawei/u8815/recovery/etc/init.rc
+BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/u8665/recovery/graphics.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/huawei/u8665/recovery/recovery-keys.c
+TARGET_RECOVERY_INITRC := device/huawei/u8665/recovery/etc/init.rc
 BOARD_UMS_LUNFILE := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
 
 # Partitions
