@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     device/huawei/u8665/configs/AudioFilter.csv:system/etc/AudioFilter.csv \
-    device/huawei/u8665/configs/libcm.sh:system/etc/libcm.sh
 
 PRODUCT_COPY_FILES += \
     device/huawei/u8665/idc/synaptics.idc:system/usr/idc/synaptics.idc \
@@ -56,4 +55,4 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
 
 $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 
-$(call inherit-product, vendor/huawei/u8815/u8815-vendor.mk)
+$(call inherit-product, vendor/huawei/u8665/u8665-vendor.mk)
