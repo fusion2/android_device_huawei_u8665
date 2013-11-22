@@ -55,4 +55,4 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
 
 $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 
-$(call inherit-product, vendor/huawei/u8665/u8665-vendor.mk)
+$(call inherit-product, vendor/huawei/u8815/u8815-vendor.mk)
