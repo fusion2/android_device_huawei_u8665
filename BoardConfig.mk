@@ -47,7 +47,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 402653184 # 0x18000000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 805306368 # 0x30000000
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/huawei/u8815/rootdir/fstab.huawei
+TARGET_RECOVERY_FSTAB := device/huawei/u8665/rootdir/fstab.huawei
 
 # RIL
 BOARD_RIL_CLASS := ../../../device/huawei/u8665/ril/
