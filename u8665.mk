@@ -21,22 +21,22 @@ DEVICE_PACKAGE_OVERLAYS += device/huawei/u8815/overlay
 
 # Files
 PRODUCT_COPY_FILES += \
-    device/huawei/u8815/rootdir/fstab.huawei:root/fstab.huawei \
-    device/huawei/u8815/rootdir/init.device.rc:root/init.device.rc
+    device/huawei/u8665/rootdir/fstab.huawei:root/fstab.huawei \
+    device/huawei/u8665/rootdir/init.device.rc:root/init.device.rc
 
 PRODUCT_COPY_FILES += \
-    device/huawei/u8815/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf \
-    device/huawei/u8815/configs/nvram_4330.txt:system/etc/nvram_4330.txt
+    device/huawei/u8665/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf \
+    device/huawei/u8665/configs/nvram_4330.txt:system/etc/nvram_4330.txt
 
 PRODUCT_COPY_FILES += \
-    device/huawei/u8815/configs/AudioFilter.csv:system/etc/AudioFilter.csv \
-    device/huawei/u8815/configs/libcm.sh:system/etc/libcm.sh
+    device/huawei/u8665/configs/AudioFilter.csv:system/etc/AudioFilter.csv \
+    device/huawei/u8665/configs/libcm.sh:system/etc/libcm.sh
 
 PRODUCT_COPY_FILES += \
-    device/huawei/u8815/idc/synaptics.idc:system/usr/idc/synaptics.idc \
-    device/huawei/u8815/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
-    device/huawei/u8815/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    device/huawei/u8815/keylayout/Generic.kl:system/usr/keylayout/Generic.kl
+    device/huawei/u8665/idc/synaptics.idc:system/usr/idc/synaptics.idc \
+    device/huawei/u8665/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
+    device/huawei/u8665/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    device/huawei/u8665/keylayout/Generic.kl:system/usr/keylayout/Generic.kl
 
 # Permissions
 PRODUCT_COPY_FILES += \
