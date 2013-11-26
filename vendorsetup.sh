@@ -19,4 +19,5 @@ add_lunch_combo u8665-eng
 add_lunch_combo cm_u8665-userdebug
 
 # Run device patches on the tree.
-sh device/huawei/u8815/patches/apply.sh
+sh device/huawei/u8665/patches/apply.sh
+sh device/huawei/msm7x27a-common/patches/apply.sh
