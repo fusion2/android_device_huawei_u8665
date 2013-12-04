@@ -12,15 +12,14 @@ diff --git a/media/java/android/media/AudioService.java b/media/java/android/med
 index 3930286..7af2482 100644
 --- a/media/java/android/media/AudioService.java
 +++ b/media/java/android/media/AudioService.java
-@@ -219,7 +219,7 @@ public class AudioService extends IAudioService.Stub implements OnFinished {
- 
-    /** @hide Maximum volume index values for audio streams */
-     private final int[] MAX_STREAM_VOLUME = new int[] {
--        5,  // STREAM_VOICE_CALL
-+        7,  // STREAM_VOICE_CALL
-         7,  // STREAM_SYSTEM
-         7,  // STREAM_RING
-         15, // STREAM_MUSIC
--- 
+@@ -207,7 +207,7 @@
+  
+     /** @hide Maximum volume index values for audio streams */
+      private static final int[] MAX_STREAM_VOLUME = new int[] {
+ -        5,  // STREAM_VOICE_CALL
+ +        7,  // STREAM_VOICE_CALL
+          7,  // STREAM_SYSTEM
+          7,  // STREAM_RING
+          15, // STREAM_MUSIC
 1.8.1.2
 
