@@ -1,4 +1,5 @@
 #
+#
 # Copyright (C) 2011 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,3 +22,6 @@ add_lunch_combo cm_u8665-userdebug
 # Run device patches on the tree.
 sh device/huawei/u8665/patches/apply.sh
 sh device/huawei/msm7x27a-common/patches/apply.sh
+
+# Run get-prebuilts incase i forget
+sh vendor/cm/get-prebuilts
